@@ -1,5 +1,11 @@
 # Github demo Python scripts
 # Assignment 2 IAC
-Folders containing Python scripts of all exercises
-This folder is made a git repository and pushed to repository named Python. Python repository has 2 branches main and Feature branch, this project is to demonstrate branch merges.
+
+This project is about creating a repository, pushing an existing folder into that git repository, creating new branch, making changes in the folder and committing those changes in the new branch Feature created before, the next step would be to merge the Feature branch with the main default branch by doing so all the changes done in Feature branch will be synced with main branch, by pushing all changes from main branch there will be successful push of all new changes committed in Feature branch into main branch.
+
+Multiple commit sequences will be combined into a single, unified history using git merge. Git merge is most frequently employed to unite two branches. This document will emphasize this branch merging pattern in the examples that follow. In these cases, git merge will look for a common base commit between two commit pointers, typically the branch tips. Git will construct a new "merge commit" that incorporates the changes of each pending merge commit sequence once it discovers a common base commit.
+
+The programmer primarily maintains a clean master branch in their git repository. They are then making a duplicate of the master branch where they can conveniently keep their most recent code updates, resolve any errors, commit the changes, and do a number of other actions. Simply branching in the git structure is what this technique entails. The git Branch command allows users to create, delete, list, and rename branches. One of the newest capabilities of git for maintaining code version control is branching. It displays the most recent version of your code without changing the master branch.
+
+In this project we have created a python repository, included the exercise folder from week 1-9, need to create one repository in git named Python, this python repo will have only one default branch that is named main. Commit the folders and all files included in that folder, we use command git init for initialization of git in that particular folder where the project needs to be pushed. After git init we can add the contents inside the folder to git repo using git add and commit all the files to git repository using command git commit, and then finally push the folder contents to the git repository this will by default push the folder to main brnach. Below image shows the pushed repository Python.
 
